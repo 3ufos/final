@@ -1,0 +1,80 @@
+.logo{
+	position:absolute;
+	background:url(../images/card.png);
+	width:287px;
+	height:183px;
+	top:350px;
+	left:215px;
+	transition:ease .5s;
+}
+
+.logo:hover{
+	background:url(../images/card1.png);
+}
+
+a:link, a:visited{
+	text-decoration:none;
+    color:#F3CD9E;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.navi{
+	position:absolute;
+	bottom:165px;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+	line-height:130%;
+	text-align:center;
+	padding:auto;
+}
+
+.file{
+	position:relative;
+	width:712px;
+	height:486px;
+	margin:20px auto 70px auto;
+	text-align:center;
+	transition-timing-function:ease 1s;
+}
+
+.softservecase{
+	position:absolute;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	top:130px;
+	font-family: 'Special Elite', cursive;
+	font-weight:bolder;
+	font-size:45px;
+	color:#26394B;
+}
+
+.tagline{
+	position:absolute;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	top:170px;
+	font-size:20px;
+	font-weight:bold;
+	color:#D6918F;
+}
+
+.help{
+	display:none;
+}
+
+.about{
+	font-size:14px;
+	width:900px;
+	margin:0px auto 40px auto;
+	display:none;
+}

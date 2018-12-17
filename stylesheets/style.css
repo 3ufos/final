@@ -1,0 +1,121 @@
+/* font-family: 'Roboto Mono', monospace;
+font-family: 'Caveat Brush', cursive;  */
+
+/* cream #F3CD9E  D0E2D2 */
+/* pink #D6918F  B0A9A6 */
+/* blue #538196  7099A5 */
+/* dark blue #26394B  30424E */
+
+body{
+	background-color:#000000;
+	font-family: 'Roboto Mono', monospace;
+	font-weight:bold;
+	font-size:17px;
+	color:#F3CD9E;
+	text-align:center;
+	margin:0px;
+}
+
+i{
+	color:#D6918F;
+}
+
+a:link, a:visited{
+	text-decoration:none;
+    color:#26394B;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+img{
+	display:block;
+	margin: 0 auto 0 auto;
+	z-index:10;
+}
+
+h2{
+	font-size:40px;
+	padding:20px 10px 10px 10px;
+	text-align:center;
+	margin:0;
+	font-family: 'Special Elite', cursive;
+}
+
+p{
+	padding:10px;
+	margin:0px;
+}
+
+ul{
+	text-align: justify;
+}
+
+.notepadnav{
+	padding:20px 20px 20px 20px;
+	position:fixed;
+	left:10px;
+	bottom:-200px;
+	width:305px;
+	height:265px;
+	transition: .5s all ease;
+}
+.notepad{
+	position:absolute;
+	z-index:2;
+}
+
+.nav{
+	position:absolute;
+	z-index:4;
+	left:90px;
+	top:90px;
+	font-size:20px;
+	font-weight:bold;
+	line-height:130%;
+	font-family: 'Special Elite', cursive;
+}
+
+.column{
+	width:640px;
+	margin-top:20px;
+	margin-bottom:70px;
+	margin-left:430px;
+	z-index:100;
+}
+
+.corner{
+	position:fixed;
+	z-index:-100;
+	left:0px;
+	bottom:0px;
+}
+/* fun stuff :^) */
+.o{
+	position:fixed;
+	right:0;
+	top:0;
+	opacity:0;
+	transition: ease .3s;
+}
+.o:hover{
+	opacity:1;
+}
+
+.ghosty{
+	display:none;
+}
+
+.ghosttime{
+	color:#D0E2D2;
+}
+
+.ghosttimei{
+	color:#7099A5;
+}
+
+.ghostbox{
+	display:none;
+}
+
